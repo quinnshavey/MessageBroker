@@ -18,5 +18,11 @@
     <ClCompile Include="finalporject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="broker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="worker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
