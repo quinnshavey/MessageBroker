@@ -17,6 +17,7 @@ int main()
 	if (inet_pton(AF_INET, "127.0.0.1", &address.sin_addr) != 1) {
 		fputs("Could not set the loopback address\n", stderr);
 		return 1;
+		// test
 	}
 
 	const auto* endpoint = reinterpret_cast<const sockaddr*>(&address);
