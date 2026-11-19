@@ -19,6 +19,8 @@ int main()
 		return 1;
 	}
 
+	const auto* endpoint = reinterpret_cast<const sockaddr*>(&address);
+
     cout << "Worker slave\n";
 }
 
